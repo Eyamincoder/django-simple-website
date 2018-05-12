@@ -1,0 +1,19 @@
+body{
+	margin-top: 20px;
+}
+p{
+	margin-bottom: 0px;
+}
+.footer-area{
+	position: absolute;;
+	width: 100%;
+	bottom: 20px;
+	left: 0;
+}
+.footer-area .footer-copyright{
+	background-color: #343a40;
+	padding: 10px;
+}
+.footer-area p{
+	color:#fff;
+
