@@ -1,14 +1,28 @@
 body{
 	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
 }
 p{
 	margin-bottom: 0px;
 }
+.header-area{
+	padding-bottom: 30px;
+}
+.single-post{
+	padding-bottom: 20px;
+}
+
+
+
+
 .footer-area{
-	position: absolute;;
+	/*position: absolute;*/
 	width: 100%;
-	bottom: 20px;
+	bottom:0;
 	left: 0;
+/*	height: 60px;*/
+padding-top: 50px;
 }
 .footer-area .footer-copyright{
 	background-color: #343a40;
@@ -16,4 +30,4 @@ p{
 }
 .footer-area p{
 	color:#fff;
-
+}

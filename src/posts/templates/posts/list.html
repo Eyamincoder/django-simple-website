@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %} blog {% endblock %}
+
+{% block content%} {# content Start #}
+
+	{% for obj in object_list  %}
+		<div class="single-post">
+			<h2>{{ obj.title}}</h2>
+			<p>{{ obj.content}}</p>
+			<span>{{ obj.user.first_name}}</span>
+		</div>
+	{% endfor %}
+
+{% endblock%} {# content end #}
